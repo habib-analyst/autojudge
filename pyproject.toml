@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autojudge"
+version = "0.1.0"
+description = "Significance-tested improvement audit: an LLM-judge harness that refuses to declare a win until the improvement is statistically real"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Habib Ur Rehman" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+keywords = ["llm-evaluation", "llm-judge", "statistical-testing", "ai-agents", "benchmarking"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/habib-analyst/autojudge"
+Repository = "https://github.com/habib-analyst/autojudge"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

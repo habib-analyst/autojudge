@@ -1,0 +1,27 @@
+{
+  "a": {
+    "verdict": "WIN",
+    "p": 0.0001999600079984003,
+    "d": 0.6487749844332243,
+    "pass": true
+  },
+  "b": {
+    "verdict": "NO_SIGNIFICANT_DIFFERENCE",
+    "p": 0.47750449910017995,
+    "d": -0.09368711870188214,
+    "pass": true
+  },
+  "c": {
+    "verdict": "NOT_PRACTICALLY_SIGNIFICANT",
+    "p": 0.0021995600879824036,
+    "d": 0.14639726404159745,
+    "pass": true,
+    "naive_mean_gap": 0.10548622498798998
+  },
+  "typeI": {
+    "n_sims": 200,
+    "rejection_rate": 0.045,
+    "pass": true
+  },
+  "kill_gate": "PASS"
+}
